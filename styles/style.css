@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand&family=Titillium+Web:wght@200&display=swap');
+
+/*font-family: 'Indie Flower', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Titillium Web', sans-serif;*/
+
+/* Reset (*) */
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'QuickSand', cursive;;
+    background-color: rgb(255, 255, 255);
+    color: grey}
+
+    header{background-color: gray}
+
+    header .grid-layout {
+        width: 80%;
+        margin: 0 auto;
+        background-color:yellowgreen;
+    }
+
+    footer{background-color: rgb(109, 105, 105)} 
+
+    header h1{
+         text-transform: lowercase;
+         color:white;
+         font-family: 'Titilium Web', sans-serif;
+    }
+
+header h1 #logoux {
+    font-family: 'Indie Flower', cursive ;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 600px;
+    font-size: 30px; 
+}
+    
