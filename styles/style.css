@@ -23,7 +23,12 @@ body{
     header .grid-layout {
         width: 80%;
         margin: 0 auto;
-        background-color:yellowgreen;
+        /* background-color:yellowgreen; */
+    }
+    header .header-flex {
+        display: flex;
+        justify-content: space-between;
+        border: 2px white 
     }
 
     footer{background-color: rgb(109, 105, 105)} 
@@ -41,4 +46,14 @@ header h1 #logoux {
     font-weight: 600px;
     font-size: 30px; 
 }
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    justify-content: space-between;
+}
+header nav a{
+    color: white;
+    text-decoration: none;}
     
